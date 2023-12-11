@@ -11,7 +11,7 @@ def get(sample_size: int, weight: float = 1.3, confidence_level: float = 0.95) -
 
     The Ipsos credibility interval is a Bayesian metric that can be used to
     calculate the margin of error for online polling. It estimates accuracy
-    plus or minus the calculated number of percentage points.
+    plus or minus a number of percentage points.
 
     You can learn more by reading the Ipsos white papers at:
     https://www.ipsos.com/sites/default/files/2017-03/IpsosPA_CredibilityIntervals.pdf
@@ -24,6 +24,15 @@ def get(sample_size: int, weight: float = 1.3, confidence_level: float = 0.95) -
 
     Returns:
         float: the Ipsos credibility interval, which is a margin of error measured as percentage points.
+
+    Examples:
+        >>> import ipsos_credibility_intervals
+        >>> ipsos_credibility_intervals.get(2000)
+        2.498473650777201
+        >>> ipsos_credibility_intervals.get(1000)
+        3.5333753221609374
+        >>> ipsos_credibility_intervals.get(500)
+        4.996947301554402
     """
     # Use the confidence level to calculate the expected distribution
     p = (1 - confidence_level) / 2
