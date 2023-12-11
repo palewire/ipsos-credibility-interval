@@ -25,6 +25,7 @@ You can provide a custom confidence level. The default is 95%. This would return
 
 ```python
 ici.get(1000, confidence_level=0.99)
+4.643642315394128
 ```
 
 You can also customize the weighting factor designed by Ipsos The default is 1.3. This would return the interval for a weighting factor of 1.5:

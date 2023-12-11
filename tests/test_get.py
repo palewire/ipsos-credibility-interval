@@ -16,3 +16,9 @@ def test_get(tmpdir):
     assert _round(get(350)) == 6.0
     assert _round(get(200)) == 7.9
     assert _round(get(100)) == 11.2
+
+
+def test_examples():
+    """Test the examples in the docs."""
+    assert _round(get(1000, confidence_level=0.99)) == 4.6
+    assert _round(get(1000, weight=1.5)) == 3.8
