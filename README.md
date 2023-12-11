@@ -3,5 +3,5 @@ A Python tool that calculates Bayesian credibility intervals for online polling 
 ## Other resources
 
 - [Ipsos white paper](https://www.ipsos.com/sites/default/files/2017-03/IpsosPA_CredibilityIntervals.pdf)
-- [Documentation](https://palewi.re/docs/ipsos-credibility-intervals/)
-- [PyPI package](https://pypi.org/project/ipsos-credibility-intervals/)
+- [Documentation](https://palewi.re/docs/ipsos-credibility-interval/)
+- [PyPI package](https://pypi.org/project/ipsos-credibility-interval/)

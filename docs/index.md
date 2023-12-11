@@ -1,4 +1,4 @@
-# ipsos-credibility-intervals
+# ipsos-credibility-interval
 
 A Python tool that calculates Bayesian credibility intervals for online polling using the Ipsos method
 
