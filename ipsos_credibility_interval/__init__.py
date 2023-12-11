@@ -19,19 +19,19 @@ def get(sample_size: int, weight: float = 1.3, confidence_level: float = 0.95) -
 
     Args:
         sample_size (int): the size of the sample
-        weight (float): the weight to apply to formula. Default is 1.5.
+        weight (float): the weight to apply to formula. Default is 1.3.
         confidence_level (float): the confidence level to use for the interval. Default is 0.95.
 
     Returns:
         float: the Ipsos credibility interval, which is a margin of error measured as percentage points.
 
     Examples:
-        >>> import ipsos_credibility_interval as ici
-        >>> ici.get(2000)
+        >>> import ipsos_credibility_interval
+        >>> ipsos_credibility_interval.get(2000)
         2.498473650777201
-        >>> ici.get(1000)
+        >>> ipsos_credibility_interval.get(1000)
         3.5333753221609374
-        >>> ici.get(500)
+        >>> ipsos_credibility_interval.get(500)
         4.996947301554402
     """
     # Use the confidence level to calculate the expected distribution
