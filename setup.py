@@ -2,7 +2,7 @@
 import os
 import time
 
-from setuptools import find_packages, setup
+from setuptools import setup
 
 
 def read(file_name):
@@ -59,7 +59,7 @@ setup(
         "Source": "https://github.com/palewire/ipsos-credibility-interval",
         "Tracker": "https://github.com/palewire/ipsos-credibility-interval/issues",
     },
-    packages=find_packages("ipsos_credibility_interval"),
+    packages=("ipsos_credibility_interval",),
     setup_requires=["setuptools_scm"],
     use_scm_version={"version_scheme": version_scheme, "local_scheme": local_version},
     install_requires=["scipy"],
