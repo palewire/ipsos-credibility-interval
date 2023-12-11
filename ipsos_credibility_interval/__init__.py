@@ -19,7 +19,7 @@ def get(sample_size: int, weight: float = 1.3, confidence_level: float = 0.95) -
 
     Args:
         sample_size (int): the size of the sample
-        weight (float): the weight to apply to formula. Default is 1.5.
+        weight (float): the weight to apply to formula. Default is 1.3.
         confidence_level (float): the confidence level to use for the interval. Default is 0.95.
 
     Returns:
