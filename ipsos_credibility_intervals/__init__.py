@@ -6,11 +6,7 @@ import math
 from scipy import stats
 
 
-def get(
-    sample_size: int,
-    weight: float = 1.3,
-    confidence_level: float = 0.95
-) -> float:
+def get(sample_size: int, weight: float = 1.3, confidence_level: float = 0.95) -> float:
     """Calculate the Ipsos credibility interval for a given sample size.
 
     The Ipsos credibility interval is a Bayesian metric that can be used to
