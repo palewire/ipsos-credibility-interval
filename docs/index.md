@@ -9,7 +9,7 @@ The Ipsos credibility interval is a [Bayesian](https://en.wikipedia.org/wiki/Bay
 The package is available in the [Python Package Index](https://pypi.org/project/ipsos-credibility-interval/). You can install it with pipenv or another package manager.
 
 ```bash
-pip install ipsos-credibility-interval
+pipenv install ipsos-credibility-interval
 ```
 
 ## Usage
