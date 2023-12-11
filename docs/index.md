@@ -2,7 +2,7 @@
 
 A Python tool that calculates Bayesian credibility intervals for online polling using the Ipsos method
 
-The Ipsos credibility interval is a Bayesian metric that can be used to calculate the margin of error for online polling. It estimates accuracy plus or minus a number of percentage points. You can learn more by reading [the Ipsos white paper](https://www.ipsos.com/sites/default/files/2017-03/IpsosPA_CredibilityIntervals.pdf).
+The Ipsos credibility interval is a Bayesian metric that can be used to calculate the margin of error. It estimates accuracy plus or minus a number of percentage points. You can learn more by reading [the Ipsos white paper](https://www.ipsos.com/sites/default/files/2017-03/IpsosPA_CredibilityIntervals.pdf).
 
 ## Installation
 
