@@ -19,7 +19,7 @@ To get an estimate, you must import the library and provide the sample size to t
 ```python
 import ipsos_credibility_interval
 
-ici.get(1000)
+ipsos_credibility_interval.get(1000)
 3.5333753221609374
 ```
 
