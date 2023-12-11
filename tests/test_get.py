@@ -1,5 +1,5 @@
 """Test the get function."""
-from ipsos_credibility_intervals import get
+from ipsos_credibility_interval import get
 
 
 def _round(v):

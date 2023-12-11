@@ -26,12 +26,12 @@ def get(sample_size: int, weight: float = 1.3, confidence_level: float = 0.95) -
         float: the Ipsos credibility interval, which is a margin of error measured as percentage points.
 
     Examples:
-        >>> import ipsos_credibility_intervals
-        >>> ipsos_credibility_intervals.get(2000)
+        >>> import ipsos_credibility_interval as ici
+        >>> ici.get(2000)
         2.498473650777201
-        >>> ipsos_credibility_intervals.get(1000)
+        >>> ici.get(1000)
         3.5333753221609374
-        >>> ipsos_credibility_intervals.get(500)
+        >>> ici.get(500)
         4.996947301554402
     """
     # Use the confidence level to calculate the expected distribution

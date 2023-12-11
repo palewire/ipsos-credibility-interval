@@ -7,7 +7,7 @@ The Ipsos credibility interval is a Bayesian metric that can be used to calculat
 ## Installation
 
 ```bash
-pip install ipsos-credibility-intervals
+pip install ipsos-credibility-interval
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ pip install ipsos-credibility-intervals
 Import the library and provide the sample size. The function will return the credibility interval in percentage points.
 
 ```python
-import ipsos_credibility_intervals as ici
+import ipsos_credibility_interval as ici
 
 ici.get(1000)
 3.5333753221609374
