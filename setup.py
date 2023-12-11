@@ -3,7 +3,6 @@ import os
 import time
 
 from setuptools import find_packages, setup
-from setuptools_scm.version import guess_next_version
 
 
 def read(file_name):
@@ -27,6 +26,8 @@ def version_scheme(version):
 
     If that issue is resolved, this method can be removed.
     """
+    from setuptools_scm.version import guess_next_version
+
     if version.exact:
         return version.format_with("{tag}")
     else:
@@ -46,21 +47,22 @@ def local_version(version):
 
 
 setup(
-    name="your-package-name",  # <--- Your module's name goes here
-    description="your-package-description",  # <--- Your module's description goes here
+    name="ipsos-credibility-interval",
+    description="Calculate Bayesian credibility intervals for online polling using the Ipsos method",
     long_description=read("README.md"),
     long_description_content_type="text/markdown",
     author="your name",
     author_email="your@email.com",
-    url="http://www.github.com/your-user-name/your-repo-slug",
+    url="https://palewi.re/docs/ipsos-credibility-interval/",
     project_urls={
-        "Maintainer": "https://github.com/your-user-name",
-        "Source": "https://github.com/your-user-name/your-repo-slug",
-        "Tracker": "https://github.com/your-user-name/your-repo-slug/issues",
+        "Maintainer": "https://github.com/palewire/",
+        "Source": "https://github.com/palewire/ipsos-credibility-interval",
+        "Tracker": "https://github.com/palewire/ipsos-credibility-interval/issues",
     },
-    packages=find_packages(),  # <--- Your module's directory goes here
+    packages=find_packages("ipsos_credibility_intervals"),
     setup_requires=["setuptools_scm"],
     use_scm_version={"version_scheme": version_scheme, "local_scheme": local_version},
+    install_requires=["scipy"],
     license="MIT",
     classifiers=[
         "Development Status :: 5 - Production/Stable",

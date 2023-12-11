@@ -1,3 +1,1 @@
-A template for open-source Python software repositories
-
-Instructions for how to get started working with the code can be found in `CONTRIBUTING.md`.
+A Python tools that calculates Bayesian credibility intervals for online polling using [the Ipsos method](https://www.ipsos.com/sites/default/files/2017-03/IpsosPA_CredibilityIntervals.pdf)

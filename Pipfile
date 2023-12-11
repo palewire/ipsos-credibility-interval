@@ -28,6 +28,7 @@ tomli = "*"
 
 [packages]
 exceptiongroup = "*"
+scipy = "*"
 
 [requires]
 python_version = "3.11"
