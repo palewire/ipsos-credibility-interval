@@ -125,11 +125,11 @@
         },
         "babel": {
             "hashes": [
-                "sha256:33e0952d7dd6374af8dbf6768cc4ddf3ccfefc244f9986d4074704f2fbd18900",
-                "sha256:7077a4984b02b6727ac10f1f7294484f737443d7e2e66c5e4380e41a3ae0b4ed"
+                "sha256:6919867db036398ba21eb5c7a0f6b28ab8cbc3ae7a73a44ebe34ae74a4e7d363",
+                "sha256:efb1a25b7118e67ce3a259bed20545c29cb68be8ad2c784c83689981b7a57287"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==2.13.1"
+            "version": "==2.14.0"
         },
         "certifi": {
             "hashes": [
@@ -298,7 +298,7 @@
                 "sha256:fd1abc0d89e30cc4e02e4064dc67fcc51bd941eb395c502aac3ec19fab46b519",
                 "sha256:ff8fa367d09b717b2a17a052544193ad76cd49979c805768879cb63d9ca50561"
             ],
-            "markers": "python_version >= '3.7'",
+            "markers": "python_full_version >= '3.7.0'",
             "version": "==3.3.2"
         },
         "click": {
@@ -977,6 +977,7 @@
                 "sha256:9a5160e1ea90688d5963ba09a2dcd8bdd526620edbb65c328728f1b2228d5ab5"
             ],
             "index": "pypi",
+            "markers": "python_version >= '3.9'",
             "version": "==7.2.6"
         },
         "sphinx-autobuild": {
@@ -997,10 +998,10 @@
         },
         "sphinx-palewire-theme": {
             "hashes": [
-                "sha256:252f95aa9c6d4feb8237fd0d30d530564c28c149660cea8b6ba3ab86e5273503"
+                "sha256:2d13da512684e54d8654f79d0a9d63b58aabf2e7b8ca5f16bfeb946b77ce4956"
             ],
             "index": "pypi",
-            "version": "==0.0.7"
+            "version": "==0.0.10"
         },
         "sphinx-rtd-theme": {
             "hashes": [
